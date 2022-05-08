@@ -1,0 +1,5 @@
+pandas
+numpi
+ijson
+pytest
+openpyxl
