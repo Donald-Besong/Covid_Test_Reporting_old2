@@ -23,12 +23,13 @@
 
 
 
-<!-- GETTING STARTED
+
 ## How to test the program
 <p>
 Assume that you would like to travel, and you have been sent a test kit. 
 You will not be allowed to travel unless your result is
 negative. The test kit contains eight test strips.
+</p>
 The id's of your strips are: x000047, x000020 \n \
 x000001, x000002, x000003, x000004, and x000005 from the data file.
 You have done the test. Your strip now shows 
