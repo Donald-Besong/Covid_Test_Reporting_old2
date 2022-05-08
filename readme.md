@@ -23,11 +23,23 @@
 
 
 
-<!-- GETTING STARTED -->
-## Getting Started
+<!-- GETTING STARTED
+## How to test the program
+<p>
+Assume that you would like to travel, and you have been sent a test kit. 
+You will not be allowed to travel unless your result is
+negative. The test kit contains eight test strips.
+The id's of your strips are: x000047, x000020 \n \
+x000001, x000002, x000003, x000004, and x000005 from the data file.
+You have done the test. Your strip now shows 
+           
+           
+You can look at the data file to see which value represents \
+            \n a negative result for each strip.")
+    print("However, this would be hidden in real life.")
+    answer = input("You can also use other strip id's from the data file \n")
 
-Instructions
-
+## Instructions
 
 1. Clone the repository
 2. Make sure that in your command line, you are in the root folder, which contains
