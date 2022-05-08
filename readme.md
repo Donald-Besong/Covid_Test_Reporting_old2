@@ -30,10 +30,34 @@ Assume that you would like to travel, and you have been sent a test kit.
 You will not be allowed to travel unless your result is
 negative. The test kit contains eight test strips.
 </p>
-The id's of your strips are: x000047, x000020 \n \
-x000001, x000002, x000003, x000004, and x000005. Please understand that
-these are valid id's from the data file <b>/src/data/data.xlsx</b>. 
-You have done the test. Your strip now shows 
+The id's of your strips are shown on you test strips. Please understand that
+these are valid id's from the a huge database with millions of id's, but in this prototyoe
+it is just my small data file <b>/src/data/data.xlsx</b>. My file has a total
+of 60 numbers from x000001 to x000060. Therefore, you can use any of the numbers 
+as your test strip. 
+<p>
+There are two kinds of test I would like you to do 
+1. Testing whether the code actually does what it is intended to do: 
+For this purpose you have to look at the data file and select a stip 
+id from sheet (or group) S1, S2, or S3.
+Please also take note of the value that results in positive or negative.
+Then run the test as described below, with those values. Then compare
+the result from the program with the corresponding spreadsheet.
+Please remember that the values are simply a representation of the lines
+you would see on your test trip after the swab and test (please refer to the publication.)
+
+2. Testing whether you can fake a desired result. 
+For this purpose, do not look at the data file! Select a stip 
+id (x000001 to x000060), without a clue as to which sheet (or group) it belongs.
+Please also guess a value that you wish results in a negative.
+Then run the test as described below, with those values.
+Keep chosing different strips and testing. In the end, your score
+as ti how successful you are at cheating will be calculated.
+Please do not do the same strip id more than once,
+because in real life you only use a strip once(please refer to the publication).
+In real life, once a candidate's results are calculated from a strip, that strip
+should be deleted from the database. In this prototype, I do not delete, for simplicity.
+</p>
            
            
 You can look at the data file to see which value represents \
