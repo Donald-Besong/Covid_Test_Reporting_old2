@@ -122,7 +122,9 @@ if __name__ == '__main__':
             output = testCheater(strip_id, value)
             success = success + output[0]
             total = total + output[1]
+        print('\n ****************************')
         print(f'total={total} and success={success}')
+        print('****************************')
     else:
         print("Sorry, we do not offer the requested test.")
         
