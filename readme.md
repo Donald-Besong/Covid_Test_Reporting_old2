@@ -31,7 +31,8 @@ You will not be allowed to travel unless your result is
 negative. The test kit contains eight test strips.
 </p>
 The id's of your strips are: x000047, x000020 \n \
-x000001, x000002, x000003, x000004, and x000005 from the data file.
+x000001, x000002, x000003, x000004, and x000005. Please understand that
+these are valid id's from the data file <b>/src/data/data.xlsx</b>. 
 You have done the test. Your strip now shows 
            
            
