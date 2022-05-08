@@ -76,6 +76,9 @@ environment
   
 
 5. Run the following command, changing the argument values:
-<p align="center"> python3 src/main_program.py --name=Jane Dough --strip_id=x000001 --value=101 </p>
+<p align="center"> python3 src/main_program.py --which_test=test1 --name=Jane Dough --strip_id=x000001 --value=101 </p>
+<br>
+--which_test=test1 if you need the first test listed in the previous section,
+--which_test=test2 for the second test.
 <br>
 Please replace with your name, strip number and test result.

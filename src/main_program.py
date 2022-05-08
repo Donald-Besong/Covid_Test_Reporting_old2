@@ -13,7 +13,8 @@ import math
 data_source = main_argparser.data_source
 name = main_argparser.name
 strip_id = main_argparser.strip_id
-value = main_argparser.value  
+value = main_argparser.value
+which_test = main_argparser.which_test  
 #*****************end reading arguments
 
 x = iterdata.IterData(data_source)
@@ -91,44 +92,42 @@ def covidResult(strip_id, v):
             result = "undefined - please repeat test"
     else:
         result = "The strip id is invalid"
-    return result, success
+    return result
     
 			
-def test(strip_id, v):
-    result = ""
+def testCheater(strip_id, v):
+    success = 0
+    total = 1
     if strip_id in Set1:
-        result = "s1"
+        if v == '100':
+            success = 1
     elif strip_id in Set2:
-        result = "s2"
+        if v == '010':
+            success = 1
     elif strip_id in Set3:
-        result = "s3"
-    else:
-        result = "trip id is invalid"
-    return result
+        if v == '001':
+            success = 1
+    return success, total
     	    
 if __name__ == '__main__':
-    test = covidResult(strip_id, value)
-    total = 1
-    print(test[0])
-    success = test[0]
-    print("\n      ***")
-    print("The following exercise assumes you have been sent a test kit.")
-    print("The test kit contains eight test strips.")
-    print("The id's of your strips are: x000047, x000020 \n \
-           x000001, x000002, x000003, x000004, and x000005 from the data file.")
-    print("You can look at the data file to see which value represents \
-            \n a negative result for each strip.")
-    print("However, this would be hidden in real life.")
-    answer = input("You can also use other strip id's from the data file \n")
-    
-    if answer == 'yes':
-        while value:
+    success = 0
+    total = 0
+    if which_test == "test1":
+        test = covidResult(strip_id, value)
+        print(test)
+    elif which_test == "test2":
+        while total < 5:
             strip_id = input("Enter strip id:")
             value = input("Enter value:")
-            test = covidResult(strip_id, value)
-            total = total + 1
-            success = success + test[0]
-    print(f'total={total} and success={success}')
+            output = testCheater(strip_id, value)
+            success = success + output[0]
+            total = total + output[1]
+        print(f'total={total} and success={success}')
+    else:
+        print("Sorry, we do not offer the requested test.")
+        
+    
+
     
 		
 		
