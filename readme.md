@@ -36,7 +36,8 @@ it is just my small data file <b>/src/data/data.xlsx</b>. My file has a total
 of 60 numbers from x000001 to x000060. Therefore, you can use any of the numbers 
 as your test strip. 
 <p>
-There are two kinds of test I would like you to do 
+There are two kinds of test I would like you to do. 
+
 1. Testing whether the code actually does what it is intended to do: 
 For this purpose you have to look at the data file and select a stip 
 id from sheet (or group) S1, S2, or S3.
@@ -59,11 +60,7 @@ In real life, once a candidate's results are calculated from a strip, that strip
 should be deleted from the database. In this prototype, I do not delete, for simplicity.
 </p>
            
-           
-You can look at the data file to see which value represents \
-            \n a negative result for each strip.")
-    print("However, this would be hidden in real life.")
-    answer = input("You can also use other strip id's from the data file \n")
+
 
 ## Instructions
 
