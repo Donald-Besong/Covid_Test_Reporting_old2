@@ -49,7 +49,7 @@ Please remember that the values are simply a representation of the lines
 you would see on your test trip after the swab 
 and test (please refer to the manuscript for details).
 
-2. Investigating your rati  of success in faking a desired result. 
+2. Investigating your rate  of success in faking a desired result. 
 For this purpose, do not look at the data file! Select a stip 
 id (x000001 to x000060), without a clue as to which sheet (or group) it belongs.
 Please also guess a value that you wish results in a negative.
