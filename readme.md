@@ -40,24 +40,27 @@ There are two kinds of test I would like you to do.
 
 1. Testing whether the code actually does what it is intended to do: 
 For this purpose you have to look at the data file and select a stip 
-id from sheet (or group) S1, S2, or S3.
-Please also take note of the value that results in positive or negative.
-Then run the test as described below, with those values. Then compare
+id from any sheet (or group) S1, S2, or S3.
+Please also take note of the value that results in positive or negative for 
+strips in their respective sheets.
+Then run the test as described in the instructions below, with those values. Finally, compare
 the result from the program with the corresponding spreadsheet.
 Please remember that the values are simply a representation of the lines
-you would see on your test trip after the swab and test (please refer to the publication.)
+you would see on your test trip after the swab 
+and test (please refer to the manuscript for details).
 
-2. Testing whether you can fake a desired result. 
+2. Investigating your rati  of success in faking a desired result. 
 For this purpose, do not look at the data file! Select a stip 
 id (x000001 to x000060), without a clue as to which sheet (or group) it belongs.
 Please also guess a value that you wish results in a negative.
 Then run the test as described below, with those values.
 Keep chosing different strips and testing. In the end, your score
-as ti how successful you are at cheating will be calculated.
-Please do not do the same strip id more than once,
+as to how successful you are at cheating will be calculated.
+Please do not use the same strip id more than once,
 because in real life you only use a strip once(please refer to the publication).
-In real life, once a candidate's results are calculated from a strip, that strip
+In real life, once a candidate's result is calculated from a strip, that strip
 should be deleted from the database. In this prototype, I do not delete, for simplicity.
+So please do not reus any strips.
 </p>
            
 
