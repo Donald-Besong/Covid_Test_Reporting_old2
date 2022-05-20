@@ -31,7 +31,7 @@ You will not be allowed to travel unless your result is
 negative. The test kit contains eight test strips.
 </p>
 The id's of your strips are shown on your test strips. Please understand that
-these are valid id's from the a huge database with millions of id's, but in this prototyoe
+these are supposed to be valid id's from a huge database with millions of id's, but in this prototyoe
 it is just my small data file <b>/src/data/data.xlsx</b>. My file has a total
 of 60 numbers from x000001 to x000060. Therefore, you can use any of the numbers 
 as your test strip. 
